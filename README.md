@@ -9,11 +9,25 @@ var open = require("open");
 open("http://www.google.com");
 ```
 
-`open` taks an optional argument specifying the program to be used to open the
+`open` takes an optional argument specifying the program to be used to open the
 file or URL.
 
 ```javascript
 open("http://www.google.com", "firefox");
+```
+
+With development profile
+
+```javascript
+open("http://www.google.com", "firefox", "-P development");
+```
+
+Getting Error from program (null if success)
+
+```javascript
+open("http://www.google.com", "firefox", "-P development", function(Error){
+  console.log(Error);
+});
 ```
 
 # Installation
