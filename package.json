@@ -2,7 +2,13 @@
   "name": "open",
   "version": "0.0.5",
   "description": "open a file or url in the user's preferred application",
-  "keywords": ["start", "open", "browser", "editor", "default"],
+  "keywords": [
+    "start",
+    "open",
+    "browser",
+    "editor",
+    "default"
+  ],
   "homepage": "https://github.com/jjrdn/node-open",
   "author": "J Jordan <jjrdn@styosis.com>",
   "license": "MIT",
@@ -19,7 +25,9 @@
   "engines": {
     "node": ">= 0.6.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-whereis": "0.0.1"
+  },
   "devDependencies": {
     "mocha": "*"
   },
