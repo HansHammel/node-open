@@ -1,0 +1,5 @@
+#! /usr/bin/env node
+var open = require('../lib/open');
+var url = process.argv[2];
+var browser = process.argv[3];
+open(url, browser);

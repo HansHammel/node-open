@@ -25,6 +25,9 @@
   },
   "optionalDependencies": {},
   "main": "lib/open.js",
+  "bin": {
+    "node-open": "bin/open"
+  },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha"
   }
