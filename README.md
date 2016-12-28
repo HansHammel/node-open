@@ -2,7 +2,7 @@
 
 Open a file or url in the user's preferred application.
 
-# Usage
+# Node usage
 
 ```javascript
 var open = require("open");
@@ -14,6 +14,20 @@ file or URL.
 
 ```javascript
 open("http://www.google.com", "firefox");
+```
+
+# NPM script usage
+
+```javascript
+{ ...
+  "scripts: {
+    ...
+    "browser": "node-open http://www.google.com",
+    "firefox": "node-open http://www.google.com firefox",
+    ...
+  },
+  ...
+}
 ```
 
 # Installation
