@@ -28,6 +28,19 @@ open("http://www.google.com", "firefox");
   },
   ...
 }
+
+With development profile
+
+```javascript
+open("http://www.google.com", "firefox", "-P development");
+```
+
+Getting Error from program (null if success)
+
+```javascript
+open("http://www.google.com", "firefox", "-P development", function(Error){
+  console.log(Error);
+});
 ```
 
 # Installation
