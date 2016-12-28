@@ -26,6 +26,6 @@
   "optionalDependencies": {},
   "main": "lib/open.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "mocha"
   }
 }
