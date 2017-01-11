@@ -1,5 +1,14 @@
 # open
 
+[![Inline docs](http://inch-ci.org/github/HansHammel/node-open.svg?branch=master)](http://inch-ci.org/github/HansHammel/node-open)
+[![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=node-open&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/node-open)
+[![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=node-open&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/node-open/fork)
+[![david dependency](https://img.shields.io/david/HansHammel/node-open.svg)](https://david-dm.org/HansHammel/node-open)
+[![david devDependency](https://img.shields.io/david/dev/HansHammel/node-open.svg)](https://david-dm.org/HansHammel/node-open)
+[![david optionalDependency](https://img.shields.io/david/optional/HansHammel/node-open.svg)](https://david-dm.org/HansHammel/node-open)
+[![david peerDependency](https://img.shields.io/david/peer/HansHammel/node-open.svg)](https://david-dm.org/HansHammel/node-open)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/node-open/badge.svg)](https://snyk.io/test/github/HansHammel/node-open)
+
 Open a file or url in the user's preferred application.
 
 # Node usage
