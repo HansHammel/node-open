@@ -6,6 +6,9 @@ branches:
     - /^greenkeeper-.*$/
     - /^greenkeeper/.*$/
 
+addons:
+  firefox: "latest"
+
 node_js:
   - 12
   - 13
