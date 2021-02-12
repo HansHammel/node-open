@@ -65,7 +65,7 @@ describe('open', function () {
 	if (os.platform() == "win32") {
 	
 	  xit('should open files with quotes', function (done) {
-	    var p = open(pathTo('with"quote.html'), done);
+	    var p = open(pathTo('with\'quote.html'), done);
 	    process.on('exit', function () {
 			    p.kill();
 			});
@@ -82,7 +82,7 @@ describe('open', function () {
 	} else {
 	
 	  it('should open files with quotes', function (done) {
-	    var p = open(pathTo('with"quote.html'), done);
+	    var p = open(pathTo('with\'quote.html'), done);
 	    process.on('exit', function () {
 			    p.kill();
 			});
